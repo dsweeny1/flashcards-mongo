@@ -1,0 +1,20 @@
+GET http://localhost:3000/students
+
+###
+
+GET http://localhost:3000/students/1
+
+###
+
+POST http://localhost:3000/students
+Content-Type: application/json
+
+{
+    "id": 1,
+    "name": "Anthony Shellman",
+    "favoriteBands": "Rubber",
+    "favoriteFoods": "Pizza",
+    "pets": "None (yet)",
+    "location": "Denver, CO",
+    "image": "https://ca.slack-edge.com/T029P2S9M-U03499VGM8F-2584f1b7097d-512"
+}
