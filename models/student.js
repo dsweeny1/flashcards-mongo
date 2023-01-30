@@ -1,10 +1,6 @@
 const mongoose = require('mongoose')
 
 const studentSchema = new mongoose.Schema({
-    id: {
-        type: String,
-        required: true
-    },
     name: {
         type: String,
         required: true
@@ -24,12 +20,10 @@ const studentSchema = new mongoose.Schema({
     location: {
         type: String,
         required: true
-    },
-    image: {
-        type: String,
-        required: true
     }
 })
+
+
 
 module.exports = mongoose.model('Student', studentSchema)
 // this model allows us to interact directly with the database we're creating with mongoDB

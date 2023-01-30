@@ -2,13 +2,22 @@ GET http://localhost:3000/api/v1/students
 
 ###
 
-GET http://localhost:3000/api/v1/students/63d02c2cc145c9efc4a41ddd
+GET http://localhost:3000/api/v1/students/63d8314beedce6fd74b6640d
 
 ###
 
 POST http://localhost:3000/api/v1/students
 Content-Type: application/json
 
+{
+    "name": "Shauna",
+    "favoriteBands": "Ween",
+    "favoriteFoods": "Thai",
+    "pets": "Duncan the one eyed Pug, Ahad the cat",
+    "location": "Denver, CO",
+    "image": "https://ca.slack-edge.com/T029P2S9M-U02Q8JAJW0P-g654fec14191-512"
+  }
+
 ###
 
-DELETE http://localhost:3000/api/v1/students/63d2bf2ff9069617775e2cb0
+DELETE http://localhost:3000/api/v1/students/63d8482055465d03f01ad626
