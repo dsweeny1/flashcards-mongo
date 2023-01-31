@@ -34,6 +34,7 @@ Student Flashcards is the final project for Mod 3, built in week 17 of [Turing S
 - Utilize Lighthouse and Wave for accessibility
 - Make network requests to API endpoints to retrieve and manipulate data
 - Implement error handling
+- Create a fullstack application using MongoDB
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -86,7 +87,6 @@ You can find the project [here](https://github.com/dsweeny1/Student-Flashcards-f
 Future Iterations:
 
 - [ ] Allow for cohorts to be saved to a list
-- [ ] Build out complete backend
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
