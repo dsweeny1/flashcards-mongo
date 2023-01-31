@@ -35,7 +35,8 @@ router.post('/', async (req, res) => {
         favoriteBands: req.body.favoriteBands,
         favoriteFoods: req.body.favoriteFoods,
         location: req.body.location,
-        pets: req.body.pets
+        pets: req.body.pets,
+        image: req.body.image
     })
     try {
         const newStudent = await student.save()

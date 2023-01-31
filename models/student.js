@@ -20,6 +20,11 @@ const studentSchema = new mongoose.Schema({
     location: {
         type: String,
         required: true
+    },
+    image: {
+        type: String,
+        required: true,
+        default: 'https://ca.slack-edge.com/T029P2S9M-U02Q8JAJW0P-g654fec14191-512'
     }
 })
 
