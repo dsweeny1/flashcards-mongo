@@ -58,10 +58,10 @@ Student Flashcards is the final project for Mod 3, built in week 17 of [Turing S
 
 1. Clone both repos, making sure to add them to their own directories
    ```sh
-   git clone git@github.com:dsweeny1/final-project-api.git
+   git clone git@github.com:dsweeny1/flashcards-mongo.git
    ```
    ```sh
-   git clone gitgit@github.com:dsweeny1/Student-Flashcards-final.git
+   git clone git@github.com:dsweeny1/students-mongo.git
    ```
 2. For Student Flashcards: Install NPM packages
    ```sh
@@ -71,7 +71,7 @@ Student Flashcards is the final project for Mod 3, built in week 17 of [Turing S
    For API Repo: Install NPM packages
    ```sh
    npm install
-   node server.js
+   npm run devStart
    ```
 3. Explore the website.
 
@@ -83,7 +83,7 @@ Student Flashcards is the final project for Mod 3, built in week 17 of [Turing S
 
 Future Iterations:
 
-- [ ] Allow for cohorts to be saved to a list
+- [ ] Allow for cohorts to be POSTed/archived to the database as one list
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
