@@ -18,7 +18,6 @@
 ## About The Project
 Flashcards Mongo is a continuation of [Student Flashcards](https://github.com/dsweeny1/Student-Flashcards-final). The application will allow Turing instructors to get to know their students better! Instructors can add their students faces using their slack profile pictures and add a few quick facts about them. Flashcards Mongo builds out the original [Express server](https://github.com/dsweeny1/final-project-api) to provide a database using MongoDB. Find the User Interface Repository for this API [here](https://github.com/dsweeny1/students-mongo)
 
-[Deployed Link](https://student-flashcards-final.vercel.app/)
 ![2022-11-12 17 59 46](https://user-images.githubusercontent.com/11345457/201500572-140f2bc8-eacb-4cab-9b4e-56c2805ce8fe.gif)
 ![2022-11-12 18 02 59](https://user-images.githubusercontent.com/11345457/201500618-29ee3b1d-e2ee-40ef-903a-6b85cbd26f3f.gif)
 
@@ -59,10 +58,10 @@ Student Flashcards is the final project for Mod 3, built in week 17 of [Turing S
 
 1. Clone both repos, making sure to add them to their own directories
    ```sh
-   git clone git@github.com:dsweeny1/final-project-api.git
+   git clone git@github.com:dsweeny1/flashcards-mongo.git
    ```
    ```sh
-   git clone gitgit@github.com:dsweeny1/Student-Flashcards-final.git
+   git clone git@github.com:dsweeny1/students-mongo.git
    ```
 2. For Student Flashcards: Install NPM packages
    ```sh
@@ -72,7 +71,7 @@ Student Flashcards is the final project for Mod 3, built in week 17 of [Turing S
    For API Repo: Install NPM packages
    ```sh
    npm install
-   node server.js
+   npm run devStart
    ```
 3. Explore the website.
 
@@ -84,7 +83,7 @@ Student Flashcards is the final project for Mod 3, built in week 17 of [Turing S
 
 Future Iterations:
 
-- [ ] Allow for cohorts to be saved to a list
+- [ ] Allow for cohorts to be POSTed/archived to the database as one list
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
