@@ -21,9 +21,7 @@ router.get('/', async (req, res) => {
         res.status(500).json({message: err.message})
     }
 })
-// router.get('/', (req, res) => {
-//     res.send('Hello World')
-// })
+
 // Getting one
 router.get('/:id', getStudent, async(req, res) => {
     res.json(res.student)
@@ -41,8 +39,6 @@ router.post('/', async (req, res) => {
     try {
         const newStudent = await student.save()
         res.status(201).json(newStudent)
-        // right now we're able to send back a 201 but the student object is not actually being saved
-        // need to seed the studentCollection above
     } catch (err) {
         res.status(400).json({ message: err.message })
     }
